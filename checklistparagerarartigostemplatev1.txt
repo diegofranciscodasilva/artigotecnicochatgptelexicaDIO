@@ -1,0 +1,260 @@
+# Checklist para gerar artigos de qualidade.
+
+[] Definir o assunto;
+[] Título chamativo: headline;
+[] Imagem de capa chamativa;
+[] Blocos de artigos;
+[] Postar o artigo com um call to action;
+
+
+## Assunto
+	Java Script;
+
+## Título
+	"Melhores Práticas para Escrever Funções Eficientes e Legíveis em JavaScript";
+
+## Capa
+	Feito com Lexi.art e Power Point;
+
+## Blocos de artigos
+
+Comporte-se como um escritor de artigos tech front-end e escreva o artigo atendendo as regras abaixo !
+
+	{REGRAS}
+
+> No máximo 5 linhas por bloco de explicação;
+> Me explique de maneira informal, como se eu fosse uma criança de 10 anos;
+> Os blocos que serão criados estão abaixo:
+
+
+- Quais são as melhores práticas para escrever e sua legibilidade;
+- Quão eficiente deve ser a escrita do código; 
+- O que são funções e quais suas funcionalidades;
+- Cite exemplos objetivos e claros;
+- Faça um call to action para as minhas redes socias;
+- Coloque 3 hashtags que façam sentido;
+
+
+
+
+Melhores Práticas para Escrever Código e sua Legibilidade
+
+
+Introdução
+
+Quando escrevemos código, precisamos deixar ele bem fácil de entender, como se fosse um livro de histórias. Usar nomes claros para variáveis e funções, como "idadeDoCachorro" ao invés de "x", ajuda muito. Comentários também são legais, mas só quando explicam algo difícil. Imagina que um amigo seu vai ler o código; ele tem que entender tudo sem pedir ajuda.
+
+
+Eficiência na Escrita do Código
+
+
+Escrever código eficiente é como fazer um sanduíche bem rápido. Não adianta só ser rápido, tem que ficar gostoso! Isso quer dizer que o código deve rodar rapidinho, sem gastar muita memória do computador. Usar funções prontas, como as do JavaScript, pode ajudar a economizar tempo e deixar tudo mais rápido.
+
+
+
+O Que São Funções e Quais Suas Funcionalidades
+
+
+Funções são como receitas de cozinha. Você diz ao computador o que fazer passo a passo. Quando você precisa daquela tarefa de novo, só chama a receita pelo nome e pronto! Elas ajudam a organizar o código e a reutilizar pedaços dele sem repetir tudo de novo.
+
+
+
+Exemplos Objetivos e Claros:
+
+
+Vamos fazer uma função para dizer "Oi" para alguém:
+
+
+function dizerOi(nome) {
+
+  console.log("Oi, " + nome + "!");
+
+}
+
+
+
+dizerOi("Ana"); // Isso vai mostrar "Oi, Ana!"
+
+
+
+Uma função para somar dois números:
+
+
+function somar(a, b) {
+
+  return a + b;
+
+}
+
+
+
+let resultado = somar(5, 3); // Isso vai dar 8
+
+
+
+Função para calcular a área de um quadrado:
+
+
+function calcularAreaQuadrado(lado) {
+
+  return lado * lado;
+
+}
+
+
+
+let area = calcularAreaQuadrado(4); // Isso vai dar 16
+
+
+
+Função para verificar se um número é par:
+
+
+function ehPar(numero) {
+
+  return numero % 2 === 0;
+
+}
+
+
+
+let resultado = ehPar(10); // Isso vai dar true
+
+
+
+Função para converter Celsius para Fahrenheit:
+
+
+function converterParaFahrenheit(celsius) {
+
+  return (celsius * 9/5) + 32;
+
+}
+
+
+
+let fahrenheit = converterParaFahrenheit(25); // Isso vai dar 77
+
+
+
+Função para contar o número de letras em uma palavra:
+
+
+function contarLetras(palavra) {
+
+  return palavra.length;
+
+}
+
+
+
+let quantidade = contarLetras("gato"); // Isso vai dar 4
+
+
+
+Função para inverter uma string:
+
+
+function inverterString(texto) {
+
+  return texto.split('').reverse().join('');
+
+}
+
+
+
+let invertido = inverterString("casa"); // Isso vai dar "asac"
+
+
+
+Função para encontrar o maior número em um array:
+
+
+function encontrarMaiorNumero(numeros) {
+
+  return Math.max(...numeros);
+
+}
+
+
+
+let maior = encontrarMaiorNumero([1, 5, 3, 9, 2]); // Isso vai dar 9
+
+
+
+Função para somar todos os números de um array:
+
+
+function somarArray(numeros) {
+
+  return numeros.reduce((total, numero) => total + numero, 0);
+
+}
+
+
+
+let soma = somarArray([1, 2, 3, 4]); // Isso vai dar 10
+
+
+
+Função para remover elementos duplicados de um array:
+
+
+function removerDuplicados(array) {
+
+  return [...new Set(array)];
+
+}
+
+
+
+let semDuplicados = removerDuplicados([1, 2, 2, 3, 4, 4]); // Isso vai dar [1, 2, 3, 4]
+
+
+
+Função para verificar se uma palavra é um palíndromo:
+
+
+function ehPalindromo(palavra) {
+
+  let palavraInvertida = palavra.split('').reverse().join('');
+
+  return palavra === palavraInvertida;
+
+}
+
+
+
+let palindromo = ehPalindromo("arara"); // Isso vai dar true
+
+
+
+Função para capitalizar a primeira letra de cada palavra em uma frase:
+
+
+function capitalizarPalavras(frase) {
+
+  return frase.split(' ').map(palavra => palavra.charAt(0).toUpperCase() + palavra.slice(1)).join(' ');
+
+}
+
+
+
+let fraseCapitalizada = capitalizarPalavras("ola mundo"); // Isso vai dar "Ola Mundo"
+
+
+
+Call to Action
+Gostou das dicas? Quer aprender mais sobre programação de um jeito divertido? Siga minhas redes sociais para mais truques e novidades! 🚀
+
+
+
+Hashtags
+#ProgramaçãoDivertida #DicasDeCódigo #AprendizadoTech #JavaScript
+
+
+
+Fontes de reprodução:
+Imagens criadas por Lexica.art.
+Diagramação feita por Power Point.
+Conteúdo criado por ChatGpt e revisões 100% humanas.
